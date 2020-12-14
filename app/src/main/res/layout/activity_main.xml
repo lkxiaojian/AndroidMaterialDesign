@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.androidmaterialdesign.MainActivity">
+
+    <Button
+        android:id="@+id/tv_ANtab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="标题栏自动缩放/放大加tab,用的是fragment"
+        android:textSize="16sp"
+        android:padding="5dp"
+   />
+
+    <Button
+        android:id="@+id/tv_ANtab1"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="标题栏自动缩放/放大加tab,用的是view"
+        android:textSize="16sp"
+      />
+
+    <Button
+        android:id="@+id/bt_scroviewnotitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跟随手势滑动，显示隐藏标题栏、底部导航栏及悬浮按钮"
+        android:textSize="16sp"
+        />
+
+    <Button
+        android:id="@+id/bt_TextInputLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextInputLayout文本框动画"
+        android:textSize="16sp"
+        />
+
+
+    <Button
+        android:id="@+id/bt_clickeffect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="点击效果水波纹"
+        android:textSize="16sp"
+        />
+
+    <Button
+        android:id="@+id/bt_fab_recycleview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="放fab_recycleview交互动画"
+        android:textSize="16sp"
+        />
+
+</LinearLayout>
